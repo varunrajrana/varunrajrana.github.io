@@ -1,0 +1,15 @@
+body{
+    background: orange;
+}
+li{
+    border: 2px solid red;
+}
+
+#bullet3{
+    background: white;
+}
+
+.bullets{
+    background: burlywood;
+    text-decoration: line-through;
+}
