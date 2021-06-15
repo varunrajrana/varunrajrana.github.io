@@ -39,6 +39,12 @@ h1{
 	color: rgb(0, 255, 242);
 }
 
+h5{
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: rgb(0, 255, 242);
+}
+
 section{
 	height: 100vh;
 }
