@@ -1,7 +1,7 @@
 {
   "repository": "#",
   "license": "UNLICENSED",
-  "homepage": "./",
+  "homepage": "http://varunrana.ca/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
