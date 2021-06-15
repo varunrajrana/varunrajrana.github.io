@@ -28,25 +28,29 @@ body
 
 .container{
 	height: 100vh;
-	display: grid;
-	align-items: center;
-	margin-left: 5%;
+    align-items: center;
 }
 
 h1{
 	font-size: 8rem;
 	text-transform: uppercase;
 	color: rgb(0, 255, 242);
+	position: absolute;
+	margin-left: 5%;
+	top: 45%;
 }
 
 h5{
 	font-size: 4rem;
 	text-transform: uppercase;
 	color: rgb(0, 255, 242);
+	position: absolute;
+	margin-left: 5%;
+	top: 55%;
 }
 
-section{
+/* section{
 	height: 100vh;
-}
+} */
 
 /*# sourceMappingURL=main.css.map*/
