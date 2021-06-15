@@ -4,7 +4,7 @@
   "homepage": "http://varunrana.ca",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master build",
+    "deploy": "gh-pages -b redesign build",
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
   },
