@@ -28,23 +28,13 @@ body
 
 .container{
 	height: 100vh;
-	display: grid;
+    display: grid;
 	align-items: center;
-	margin-left: 5%;
 }
 
 h1{
 	font-size: 8rem;
 	text-transform: uppercase;
-	color: rgb(0, 255, 242);
-}
-
-h5{
-	font-size: 4rem;
-	text-transform: uppercase;
-	color: rgb(0, 255, 242);
-}
-
-section{
-	height: 100vh;
+	color: rgb(255, 255, 255);
+	margin-left: 5%;
 }

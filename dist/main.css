@@ -28,19 +28,15 @@ body
 
 .container{
 	height: 100vh;
-	display: grid;
+    display: grid;
 	align-items: center;
-	margin-left: 5%;
 }
 
 h1{
 	font-size: 8rem;
 	text-transform: uppercase;
 	color: rgb(0, 255, 242);
-}
-
-section{
-	height: 100vh;
+	margin-left: 5%;
 }
 
 /*# sourceMappingURL=main.css.map*/

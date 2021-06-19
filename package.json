@@ -1,7 +1,7 @@
 {
   "repository": "#",
   "license": "UNLICENSED",
-  "homepage": "http://varunrana.ca/",
+  "homepage": "https://varunrana.ca/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -19,6 +19,7 @@
     "file-loader": "^6.2.0",
     "fsevents": "^2.3.2",
     "gh-pages": "^3.2.0",
+    "hover-effect": "^1.1.0",
     "html-loader": "^2.1.1",
     "html-webpack-plugin": "^5.2.0",
     "mini-css-extract-plugin": "^1.3.9",
