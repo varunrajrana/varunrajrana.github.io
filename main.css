@@ -82,6 +82,7 @@ h2 {
 	font-size: 4rem;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
+	margin-left: 5%;
 	/* margin-left: 5%; */
 }
 section h2 {
@@ -97,13 +98,10 @@ h3 {
 ul {
 	font-size: 1.2rem;
 	color: rgb(255, 255, 255);
-	margin-left: 0px;
+	margin-left: 5%;
 	padding: 0;
 	float: left;
 	margin-top: -5%;
-}
-.Exp {
-	margin-left: 5%;
 }
 
 p{
