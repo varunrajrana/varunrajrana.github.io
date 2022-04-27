@@ -1,7 +1,5 @@
 html,
 body {
-	height: 100vh;
-	width: 100vw;
 	margin: 0;
 	font-family: "arial";
 	background-color: rgb(24, 24, 24);
@@ -97,14 +95,20 @@ h3 {
 	color: rgb(255, 255, 255);
 }
 ul {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: rgb(255, 255, 255);
 	margin-left: 0px;
 	padding: 0;
+	float: left;
+	margin-top: -5%;
 }
 .Exp {
 	margin-left: 5%;
-
 }
+
+p{
+	font-size: 1rem;
+}
+
 
 /*# sourceMappingURL=main.css.map*/
