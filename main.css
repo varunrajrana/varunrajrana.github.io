@@ -1,8 +1,8 @@
 html,
 body {
-	/* height: 100vh; */
-	/* width: 100vw; */
-	/* margin: 0; */
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
 	font-family: "arial";
 	background-color: rgb(24, 24, 24);
 	overflow: hidden;
@@ -15,15 +15,17 @@ body {
 	align-items: center;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
+	z-index: 2;
 }
 
 section {
-	/* display: flex; */
-	/* align-items: center; */
+	display: flex;
+	align-items: center;
 	width: 100vw;
 	position: relative;
 	height: 100vh;
 	scroll-snap-align: start;
+	z-index: 1;
 }
 
 .canvas {
@@ -76,29 +78,33 @@ h1 {
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
 	margin-left: 5%;
+	z-index: -1;
 }
 h2 {
 	font-size: 4rem;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	margin-left: 5%;
+	/* margin-left: 5%; */
 }
 section h2 {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	margin-left: 5%;
 }
 h3 {
-	font-size: 1.7rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	/* margin-left: 2%; */
 }
 ul {
 	font-size: 1rem;
 	color: rgb(255, 255, 255);
-	margin-left: 2%;
+	margin-left: 0px;
+	padding: 0;
+}
+.Exp {
+	margin-left: 5%;
+
 }
 
 /*# sourceMappingURL=main.css.map*/
