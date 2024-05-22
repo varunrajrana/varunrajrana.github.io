@@ -27,16 +27,23 @@ body
 }
 
 .container{
+	position: absolute;
 	height: 100vh;
     display: grid;
 	align-items: center;
+	width: 100vh;
 }
 
 h1{
-	font-size: 8rem;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
 	margin-left: 5%;
 }
+
+.scalable-heading {
+    font-size: 6vw; /* Scales the heading size based on the viewport width */
+}
+
+
 
 /*# sourceMappingURL=main.css.map*/
