@@ -1,46 +1,113 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-html,
-body
-{
+html, body {
     height: 100vh;
-    font-family: 'arial';
-	background-color: rgb(24, 24,24);
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body
-{
-	overflow: hidden;
+body {
+    overflow: hidden;
 }
 
-.canvas
-{
+.canvas {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     outline: none;
-	mix-blend-mode:screen
+    mix-blend-mode: screen;
+    z-index: 0;
 }
 
-.container{
-	position: absolute;
-	height: 100vh;
-    display: grid;
-	align-items: center;
-	width: 100vh;
-}
-
-h1{
-	text-transform: uppercase;
-	color: rgb(255, 255, 255);
-	margin-left: 5%;
+.container {
+    text-align: center;
+    z-index: 1; /* Ensure the container is above the canvas */
+    position: relative; /* Position relative to ensure z-index works */
 }
 
 .scalable-heading {
-    font-size: 6vw; /* Scales the heading size based on the viewport width */
+    font-size: 10vw; /* Scales the heading size based on the viewport width */
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px; /* Adds some space between the heading and buttons */
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures buttons wrap on smaller screens */
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 2%;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-size: 4vw; /* Responsive font size */
+}
+
+.linkedin {
+    background-color: #0073b1; /* LinkedIn Blue */
+}
+
+.github {
+    background-color: #333; /* GitHub Black */
+}
+
+.linkedin:hover {
+    background-color: #005582; /* Darker LinkedIn Blue */
+}
+
+.github:hover {
+    background-color: #444; /* Darker GitHub Black */
+}
+
+.button-logo {
+    height: 4vw; /* Responsive logo size */
+    width: 4vw; /* Responsive logo size */
+    margin-right: 10%;
+}
+
+/* Media queries for better scaling on different devices */
+@media (min-width: 768px) {
+    .button {
+        font-size: 2vw;
+    }
+
+    .button-logo {
+        height: 2vw;
+        width: 2vw;
+    }
+
+    .scalable-heading {
+        font-size: 5vw; /* Adjust heading size for larger screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .button {
+        font-size: 1.5vw;
+    }
+
+    .button-logo {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+
+    .scalable-heading {
+        font-size: 8vw; /* Adjust heading size for even larger screens */
+    }
+}
